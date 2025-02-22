@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a4b9ee;
+    color: #701370;
+}
+
+header {
+    background-color: #d3d02c;
+    color: rgb(165, 16, 229);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Form Styles */
+#registration-form {
+    margin-bottom: 20px;
+}
+
+#registration-form label {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+#registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e81075;
+    border-radius: 5px;
+}
+
+#registration-form button {
+    padding: 10px 20px;
+    background-color: #e40c9c;
+    color: rgb(232, 253, 72);
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#registration-form button:hover {
+    background-color: #7954dd;
+}
+
+/* Table Styles */
+#student-list {
+    overflow-x: auto;
+}
+
+#student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#student-table th,
+#student-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#student-table th {
+    background-color: #037a40;
+    color: white;
+}
+
+#student-table td {
+    background-color: #f9f9f9;
+}
+
+/* Action Buttons */
+.action-buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    color: black;
+}
+
+.delete-btn {
+    background-color: #460ec9;
+    color: white;
+}
